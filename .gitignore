@@ -1,0 +1,43 @@
+# Python-specific ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Flask specific ignores
+instance/
+.venv/
+*.db
+
+# Environment variables
+.env
+
+# Azure specific ignores
+*.azure/
+
+# IDE-specific ignores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Operating system-specific ignores
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Miscellaneous
+*.swp
+*~
